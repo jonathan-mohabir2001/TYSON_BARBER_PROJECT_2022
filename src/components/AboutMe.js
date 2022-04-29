@@ -1,11 +1,19 @@
-import React from 'react'
+import React from 'react';
+
+
+
 
 function AboutMe() {
   return (
     <div>
-      <h3> ABOUT ME PAGE TO INCLUDE BARBER INFORMATIONz</h3>
+
+      <div className="home-section">
+
+
+
+      </div>
     </div>
-  )
+  );
 }
 
-export default AboutMe
+export default AboutMe;

@@ -7,25 +7,25 @@ function TopNav() {
     <div>
       <Navbar bg="dark" expand="lg" variant="dark">
         <Container>
-          <Navbar.Brand as={Link} to="/" className='nav-main-title'>
+          <Navbar.Brand as={Link} to="/" className="nav-main-title">
             TyDaBarber
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav>
-              <Nav.Link as={Link} to="/home" className='nav-title'>
-                About Me
+              <Nav.Link as={Link} to="/home" className="nav-title">
+                Home
               </Nav.Link>
             </Nav>
 
             <Nav>
-              <Nav.Link as={Link} to="/gallery" className='nav-title'>
+              <Nav.Link as={Link} to="/gallery" className="nav-title">
                 Photo Gallery
               </Nav.Link>
             </Nav>
 
             <Nav>
-              <Nav.Link as={Link} to="/BookAppoitment" className='nav-title'>
+              <Nav.Link as={Link} to="/BookAppoitment" className="nav-title">
                 Book An Appoitment
               </Nav.Link>
             </Nav>
