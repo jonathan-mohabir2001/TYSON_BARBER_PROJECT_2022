@@ -11,6 +11,10 @@
   padding: 0;
 }
 
+.home-title{
+  padding: 2px;
+}
+
 .home-container {
   margin: 0px;
   padding: 0px;
@@ -31,3 +35,4 @@
   text-align: center;
   font-size: medium;
 }
+
