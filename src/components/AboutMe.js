@@ -10,10 +10,12 @@ function AboutMe() {
       <div
         className="home-section"
         style={{
-          backgroundImage: `url(${image_1})`,
+          backgroundImage: `url(${image_1} )`,
         }}
       >
-        <h1>My name is TyDaBarber</h1>
+        <h1 className='welcome-title'>Welcome to the TyDaBarber website!</h1>
+  
+
       </div>
     </div>
   );

@@ -1,29 +1,33 @@
-.nav-main-title{
-  font-family: 'Poppins', sans-serif
-  
+.nav-main-title {
+  font-family: 'Poppins', sans-serif;
 }
 
-.nav-title{
+.nav-title {
   font-family: 'Mukta', sans-serif;
 }
 
-
-.home-section{
+.home-section {
   margin: 0;
-  padding: 0;; 
-  
+  padding: 0;
 }
 
-
-.home-container{
+.home-container {
   margin: 0px;
   padding: 0px;
   border: 0px;
   max-width: 100%;
 }
 
+.home-section {
+  display: block;
+  border: 25px solid black;
+  height: 50rem;
+  
+}
 
-.home-section{
-  margin: 1px;
-  padding: 30px;
+.welcome-title{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-size: medium;
 }
