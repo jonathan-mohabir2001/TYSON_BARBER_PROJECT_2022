@@ -5,7 +5,7 @@ import { Routes, Route, Link } from 'react-router-dom';
 function TopNav() {
   return (
     <div>
-      <Navbar bg="dark" expand="lg" variant="dark">
+      <Navbar bg="dark" expand="lg" variant="dark" className='top-nav-bar'>
         <Container>
           <Navbar.Brand as={Link} to="/" className="nav-main-title">
             TyDaBarber
