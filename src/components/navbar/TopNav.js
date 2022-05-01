@@ -25,7 +25,7 @@ function TopNav() {
             </Nav>
 
             <Nav>
-              <Nav.Link as={Link} to="/BookAppoitment" className="nav-title">
+              <Nav.Link as={Link} to="/contact" className="nav-title">
                 Book An Appoitment
               </Nav.Link>
             </Nav>
