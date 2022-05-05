@@ -44,17 +44,28 @@ function Form() {
                 placeholder="enter your name"
               />
             </div>
+            <div className="form-group">
+              <label htmlFor="name"> Last Name</label>
+              <input
+                type="lastname"
+                name="lastname"
+                className="form-control"
+                id="lastname"
+                placeholder="enter your  last name"
+              />
+            </div>
 
             {/* <!-- email --> */}
             <div className="form-group">
-              <label htmlFor="email">Email address</label>
+              <label htmlFor="phone">Phone Number </label>
               <input
-                type="email"
-                name="email"
+                type="tel"
+                name="tel"
                 className="form-control"
-                id="email"
-                placeholder="enter your email"
+                id="tel"
+                placeholder="123-456-7890"
               />
+              <small>format 123-456-7890</small>
             </div>
 
             {/* <!-- subject --> */}
@@ -70,12 +81,24 @@ function Form() {
             </div>
 
             <div className="form-group">
+              <label htmlFor="service"> Select one of the following services  </label>
+
+              <select id="service" name="service" className="form-control">
+                <option value="haircut"> Adult Haircut - $35.00</option>
+                <option value='haircut-full'>Adult Haircut + Beard Trim -$45.00</option>
+                <option value="shaves"> Clean Shave - $25.00</option>
+                <option value="beard-trim"> Beard-trim $25.00</option>
+                <option value='child-haircut'>Child Haircut - $20.00</option>
+              </select>
+            </div>
+
+            <div className="form-group">
               <label htmlFor="email_body">Message</label>
               <textarea
                 className="form-control"
                 id="email_body"
                 rows="5"
-                placeholder="Enter the service you want ,phone number, as well as time and date of appoitment"
+                placeholder="Additional message"
               ></textarea>
             </div>
 
